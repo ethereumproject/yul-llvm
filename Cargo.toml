@@ -1,7 +1,10 @@
 [package]
 name = "yul-llvm"
 version = "0.1.0"
+license = "GPL-3.0-only"
 authors = ["Jake Lang <jak3lang@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+pest = "^1.0"
+pest_derive = "^1.0"
